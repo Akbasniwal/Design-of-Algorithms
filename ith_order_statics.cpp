@@ -16,7 +16,7 @@ int partition(int A[],int p,int q){
 }
 
 int randomize_partition(int A[],int p,int q){
-    int id=rand()%(q-p+1)+p;
+    int id=rand()%(q-p+1)+p; //generate random number in range [p,q]
     swap(A[id],A[q]);
     return partition(A,p,q);
 }

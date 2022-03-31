@@ -7,4 +7,6 @@ codes for design and analysis of algorithm
 
 3.Strassen's Algorithm to multiply two matrices
 
-4. ith order statics
+4.ith order statics
+
+5.max subarray sum problem in python in order Θ(nlogn)

@@ -24,7 +24,6 @@ int peek(vector<int> a,int n){
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    // std::ifstream input{"input.txt"};
     FILE *f1,*f2;
     f1=fopen("input.txt","r");
     f2=fopen("output.txt","w");
